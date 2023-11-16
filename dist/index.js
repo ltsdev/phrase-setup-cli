@@ -6713,7 +6713,8 @@ const osMapper = {
 
 const archMapper = {
   x32: '386',
-  x64: 'amd64'
+  x64: 'amd64',    
+  arm64: 'arm64'
 }
 
 async function run() {
